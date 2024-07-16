@@ -1,0 +1,330 @@
+:root {
+    --primar-color: #06443c;
+    --secondary-color: #ffc627;
+}
+
+body {
+    overflow-x: hidden !important;
+    background: #002621;
+    color: white;
+}
+
+.row {
+    margin-inline: 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    font-family: "IBM Plex Sans", sans-serif !important;
+    background-color: #ffc6272e;
+}
+
+.text-primary {
+    color: var(--primar-color) !important;
+}
+
+.border-primary {
+    border-color: var(--primar-color) !important;
+}
+
+.hero-text {
+    font-size: 40px !important;
+    color: white;
+}
+
+
+.hero {
+    color: white;
+}
+
+
+.hero-right {
+    /* position: relative; */
+    border-radius: 25px;
+}
+
+.hero-content {
+    background-color: var(--primar-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.container-wrapper {
+    height: fit-content;
+}
+
+.hero-img {
+    object-fit: cover;
+}
+
+
+.hero-button {
+    border: none !important;
+    background-color: #ffbf27 !important;
+    color: black !important;
+    font-size: small !important;
+}
+
+.hero-button-wrapper {
+    display: flex;
+}
+
+.hero-text-secondary {
+    font-size: small !important;
+}
+
+.button-primary {
+    color: white !important;
+    width: 200px;
+    padding: 15px;
+    background-color: var(--primar-color);
+    border: solid var(--primar-color) 2px !important;
+    font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+.button-nav {
+    color: white !important;
+    width: 150px;
+    padding: 12px;
+    background-color: var(--primar-color);
+    border: solid var(--primar-color) 2px !important;
+    font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+.card {
+    border-radius: 15px !important;
+}
+
+.btn {
+    background-color: var(--primar-color);
+    border: solid var(--primar-color);
+    font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+.btn:hover {
+    background-color: var(--primar-color);
+}
+
+.btn:active {
+    background-color: var(--primar-color);
+}
+
+.jakatar-font {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.ibm-font {
+    font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+.card-wrapper {
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.card-body {
+    height: auto;
+}
+
+.active-pill {
+    border: solid rgb(2, 80, 63) 1px;
+    border-radius: 50px !important;
+    background-color: white !important;
+    color: black !important;
+}
+
+.pill {
+    border-radius: 50px !important;
+    background-color: #90ccbf !important;
+    color: rgb(17, 17, 17) !important;
+}
+
+
+
+.circle-button {
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    /* height: 50px; */
+    border-radius: 50px;
+    background-color: #ffbf27;
+}
+
+.arrow-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35.5px;
+    border-radius: 50px;
+    background-color: #ffbf27;
+}
+
+.hero-bottom-text {
+    font-size: x-small;
+}
+
+.hero-bottom-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.search-wrapper {
+    background-color: #dbf5ec;
+    padding: 2px;
+    border-radius: 50px;
+}
+
+.search-input {
+    border: none;
+    background-color: transparent;
+}
+
+.search-input:focus {
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+}
+
+.full-section {
+    background-color: white;
+    color: black;
+}
+
+.diseases-wrapper {
+    border-radius: 25px;
+    background-color: white;
+    height: auto;
+    color: black;
+}
+
+.disease-card {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #e9ffda;
+}
+
+.card-image {
+    position: absolute;
+    height: 250px;
+    right: 0;
+    bottom: 0;
+}
+
+.card-tag {
+    border-radius: 5px;
+    background-color: rgb(247, 136, 155);
+    width: auto;
+    display: inline-block;
+    font-size: small;
+}
+
+.disease-card {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #e9ffda;
+}
+
+/* -------- accordion ------- */
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+    background-color: #caeaf7;
+}
+
+.accordion-item {
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    background-color: #caeaf7 !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.swiper-card {
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap:wrap;
+}
+
+.profile-wrapper {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.show-text {
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: end; */
+    border-radius: 25px;
+    background-color: #0f0141;
+    color: white;
+}
+
+/* -------- video -------- */
+
+.video-container {
+    height: 300px;
+    width: 600px;
+    position: relative;
+    overflow:hidden;
+}
+
+.video-container video {
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+    z-index: 1;
+    position: relative;
+    /* text-align: center; */
+    padding: 10px;
+}
+
+
+footer {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #002621;
+}
